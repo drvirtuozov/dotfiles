@@ -1,0 +1,16 @@
+// Place your settings in this file to overwrite the default settings
+{
+    "editor.tabSize": 2,
+    "workbench.colorTheme": "Github UI",
+    "go.gopath": "/media/files/works/dev/go",
+    "go.goroot": "/home/vlad/.gvm/gos/go1.8",
+    "typescript.check.tscVersion": false,
+    "editor.fontSize": 12,
+    "go.liveErrors": {
+      "enabled": true,
+      "delay": 500
+    },
+    "files.autoSave": "onWindowChange",
+    "workbench.statusBar.visible": true,
+    "workbench.activityBar.visible": true
+}
