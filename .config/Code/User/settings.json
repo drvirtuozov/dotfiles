@@ -1,16 +1,32 @@
 // Place your settings in this file to overwrite the default settings
 {
-    "editor.tabSize": 2,
-    "workbench.colorTheme": "Github UI",
-    "go.gopath": "/media/files/works/dev/go",
-    "go.goroot": "/home/vlad/.gvm/gos/go1.8",
-    "typescript.check.tscVersion": false,
-    "editor.fontSize": 12,
-    "go.liveErrors": {
-      "enabled": true,
-      "delay": 500
-    },
-    "files.autoSave": "onWindowChange",
-    "workbench.statusBar.visible": true,
-    "workbench.activityBar.visible": true
+  "editor.tabSize": 2,
+  "editor.fontSize": 12,
+  "editor.formatOnSave": true,
+  "workbench.colorTheme": "Github UI",
+  "go.gopath": "/media/files/works/dev/go",
+  "go.goroot": "/home/vlad/.gvm/gos/go1.8",
+  "go.liveErrors": {
+    "enabled": true,
+    "delay": 500
+  },
+  "files.autoSave": "onWindowChange",
+  "workbench.statusBar.visible": true,
+  "workbench.activityBar.visible": true,
+  "window.menuBarVisibility": "default",
+  "go.formatTool": "goimports",
+  "go.vetOnSave": "off",
+  "explorer.confirmDragAndDrop": false,
+  "explorer.confirmDelete": false,
+  "eslint.validate": [
+    "javascript",
+    "javascriptreact",
+    "vue",
+    "html"
+  ],
+  "window.zoomLevel": 0,
+  "C_Cpp.clang_format_path": "/usr/bin/clang-format",
+  "C_Cpp.clang_format_style": "Google",
+  "C_Cpp.clang_format_fallbackStyle": "Google",
+  "clang-format.language.javascript.enable": false,
 }
