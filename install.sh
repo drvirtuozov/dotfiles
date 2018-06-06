@@ -14,3 +14,8 @@ ln -sfv $(pwd)/.config/nvim/init.vim ~/.config/nvim
 echo Installing vscode config...
 mkdir -p ~/.config/Code/User
 ln -sfv $(pwd)/.config/Code/User/settings.json ~/.config/Code/User/settings.json
+
+
+# Proxy Automatic Configuration
+echo Installing proxy.pac...
+sudo ln -sfv $(pwd)/proxy.pac /etc/proxy.pac
