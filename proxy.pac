@@ -1,1 +1,0 @@
-function FindProxyForURL(url, host){  var HTTPS_PROXY = "PROXY 23.97.215.153:3128";  if (shExpMatch(host, "*telegram.org|telegram.me|t.me|linkedin.com|telegra.ph*")) {    return HTTPS_PROXY;  } else {    return "DIRECT";  }}

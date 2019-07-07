@@ -10,7 +10,6 @@
     "enabled": true,
     "delay": 500
   },
-  "files.autoSave": "onWindowChange",
   "workbench.statusBar.visible": true,
   "workbench.activityBar.visible": true,
   "window.menuBarVisibility": "default",
@@ -28,5 +27,8 @@
   "C_Cpp.clang_format_path": "/usr/bin/clang-format",
   "C_Cpp.clang_format_style": "Google",
   "C_Cpp.clang_format_fallbackStyle": "Google",
+  "javascript.format.enable": false,
+  "clang-format.language.javascript.style": "Mozilla",
+  "clang-format.language.javascript.fallbackStyle": "",
   "clang-format.language.javascript.enable": false,
 }
